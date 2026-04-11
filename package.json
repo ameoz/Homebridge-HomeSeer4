@@ -16,8 +16,11 @@
     "url": "https://github.com/jvmahon/homebridge-homeseer4/issues"
   },
   "engines": {
-    "node": ">=16.0.0",
-    "homebridge": ">=1.4.1"
+    "node": ">=18.15.0",
+    "homebridge": "^1.4.1 || ^2.0.0"
+  },
+  "peerDependencies": {
+    "homebridge": "^1.4.1 || ^2.0.0"
   },
   "dependencies": {
     "queue": "=6.0.2",
